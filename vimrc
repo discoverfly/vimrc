@@ -1,6 +1,5 @@
-syntax enable
 set background=dark
-colorscheme solarized
+colorscheme desert
 set st=2
 set cindent
 set si
@@ -12,6 +11,7 @@ set laststatus=2
 set statusline=%F%m%r%h%w\ \ [ff:\ %{&ff}]\ \ [Type:\ %Y]\ \ \[Pos:\ %l,%v][%p%%]\ \ [Len:\ %l/%L]
 set nocompatible              " be iMproved, required
 filetype off                  " required
+syntax on
 
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
